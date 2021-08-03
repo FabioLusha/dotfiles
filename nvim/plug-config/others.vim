@@ -23,7 +23,7 @@ set updatetime=300
 autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
 
 " gruvbox
-autocmd vimenter * colorscheme gruvbox
+" autocmd vimenter * colorscheme gruvbox
 
 " base16 colorscheme
-colorscheme base16-default-dark
+colorscheme base16-atelier-dune
