@@ -24,3 +24,6 @@ autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
 
 " gruvbox
 autocmd vimenter * colorscheme gruvbox
+
+" base16 colorscheme
+colorscheme base16-default-dark

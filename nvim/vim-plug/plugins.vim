@@ -21,6 +21,6 @@ Plug 'junegunn/fzf'
 
 " Colorscheme
 Plug 'morhetz/gruvbox'
-
+Plug 'chriskempson/base16-vim'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
