@@ -26,3 +26,9 @@ set -x EDITOR $VISUAL
 
 alias max="sudo cpupower frequency-set -u 3.4GHz"
 alias min="sudo cpupower frequency-set -u 1GHz"
+
+# Base16 Shell
+if status --is-interactive
+    set BASE16_SHELL "$HOME/.config/base16-shell/"
+    source "$BASE16_SHELL/profile_helper.fish"
+end

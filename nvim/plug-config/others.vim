@@ -26,4 +26,5 @@ autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
 " autocmd vimenter * colorscheme gruvbox
 
 " base16 colorscheme
-colorscheme base16-atelier-dune
+let base16colorspace=256
+colorscheme base16-gruvbox-dark-hard
