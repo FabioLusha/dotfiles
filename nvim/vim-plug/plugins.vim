@@ -9,10 +9,11 @@ endif
 
 call plug#begin('~/.config/nvim/plugged')
 
-Plug 'rust-lang/rust.vim'
+"Plug 'rust-lang/rust.vim'
 Plug 'itchyny/lightline.vim'
 " Plug 'dense-analysis/ale'
 
+Plug 'vim-erlang/vim-erlang-runtime'
 " Semantic language support
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 

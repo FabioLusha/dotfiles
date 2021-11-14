@@ -1,0 +1,3 @@
+Other fish settings found in /etc/fish. Don't remember for what it was needed. (for starting the system)
+
+Be careful with the Anaconda PATH, some application what the original python not the anaconda one. It shoud be unset once used
