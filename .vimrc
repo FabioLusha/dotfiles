@@ -10,6 +10,11 @@
 " loaded some other way (e.g. saved as `foo`, and then Vim started with
 " `vim -u foo`).
 set shell=/bin/bash
+
+if &shell =~# 'fish$'
+    set shell=sh
+endif
+
 set nocompatible
 filetype off
 

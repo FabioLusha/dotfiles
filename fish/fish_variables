@@ -1,6 +1,11 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3400
+SETUVAR _fish_abbr_cdproj:cd\x20/home/fabiolusha/Desktop/DeskArch\x2d09\x2d22/projects/
+SETUVAR _fish_abbr_gco:git\x20checkout
+SETUVAR _fish_abbr_l:less
+SETUVAR _fish_abbr_polimi:cd\x20/home/fabiolusha/Desktop/DeskArch\x2d09\x2d22/polimi
+SETUVAR _fish_abbr_smb:cd\x20/home/fabiolusha/Desktop/DeskArch\x2d09\x2d22/polimi/1anno/smbud/project
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
@@ -31,4 +36,4 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/home/fabiolusha/\x2elocal/bin\x1e/home/fabiolusha/\x2emix/escripts\x1e/opt/maven/bin\x1e/usr/lib/jvm/java\x2d11\x2dopenjdk\x1e/home/fabiolusha/\x2ecache/rebar3/bin\x1e/opt/gurobi901/linux64/bin\x1e
+SETUVAR fish_user_paths:/home/fabiolusha/\x2elocal/share/JetBrains/Toolbox/scripts\x1e/home/fabiolusha/\x2elocal/bin\x1e/home/fabiolusha/\x2emix/escripts\x1e/opt/maven/bin\x1e/usr/lib/jvm/java\x2d11\x2dopenjdk\x1e/home/fabiolusha/\x2ecache/rebar3/bin\x1e/opt/gurobi901/linux64/bin\x1e

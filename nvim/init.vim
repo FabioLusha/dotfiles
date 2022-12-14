@@ -10,6 +10,11 @@
 " loaded some other way.
 
 set shell=/bin/bash
+
+if &shell =~# 'fish$'
+    set shell=/bin/bash
+endif
+
 let mapleader = "\<Space>"
 set nocompatible
 filetype off
@@ -22,7 +27,7 @@ source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/others.vim
 
 "Set tab to four spaces
-set tabstop=4
+set tabstop=8
 set softtabstop=0 noexpandtab
 set shiftwidth=4
 

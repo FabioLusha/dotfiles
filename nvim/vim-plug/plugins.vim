@@ -14,6 +14,7 @@ Plug 'itchyny/lightline.vim'
 " Plug 'dense-analysis/ale'
 
 Plug 'vim-erlang/vim-erlang-runtime'
+Plug 'elixir-editors/vim-elixir'
 " Semantic language support
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
